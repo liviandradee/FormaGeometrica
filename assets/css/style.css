@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.1s all ease;
+}
+
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(162,28,167,1) 24%, rgba(0,153,195,1) 100%);
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.fileiras {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.centralizar {
+  text-align: center;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover  {
+  background-color: rgb(222, 72, 197);
+  border-radius: 55px;
+  transform: scale(1.05);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(225, 102, 242);
+  width: max-content;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+
+
+
+.formularios {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.calculo {
+  font-weight: 800;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin: 0px 20px;
+}
+
+input {
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+text-align: center;
+background-color: rgb(202, 169, 233);
+
+}
+
+.botao{
+  margin: 0px auto;
+  padding: 20px 0px;
+  width: fit-content;
+}
+
+.botao button {
+  text-transform: uppercase;
+  background-color: rgb(241, 139, 243);
+  border:0;
+  font-size: 20px;
+    transition: 0.5s;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.botao button:hover {
+  background-color: rgb(88, 211, 252);
+  cursor: pointer;
+}
+
+.botaohome{
+  margin: 40px auto;
+  width: fit-content;
+}
+
+.botaohome button {
+  text-transform: uppercase;
+  background-color: rgb(241, 139, 243);
+  transition: 0.5s;
+  border:0;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.botaohome button:hover {
+  background-color: rgb(88, 211, 252);
+  color: white;
+  cursor: pointer;
+}
+
+.formularios h2 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+figure img:hover {
+  transform: scale(1);
+}
